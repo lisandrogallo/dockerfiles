@@ -19,3 +19,9 @@ Elastic HQ: <http://localhost:9200/_plugin/hq/>
 ```
 docker run --name elasticsearch -p 9200:9200 --detach elasticsearch-pdf-hq
 ```
+
+### Kali Linux
+
+```
+docker run -v /data:/root -w /root -i -t --net=host lisogallo/kali-linux bash
+```
